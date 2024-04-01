@@ -5,10 +5,10 @@ Sep, 1st, 2016
 import os
 
 class Dataset:
-    name = 'Fer2013'
-    train_folder = 'fer2013_features/Training'
-    validation_folder = 'fer2013_features/PublicTest'
-    test_folder = 'fer2013_features/PrivateTest'
+    name = 'new_1'
+    train_folder = 'new_1_features/Training'
+    validation_folder = 'new_1_features/PublicTest'
+    test_folder = 'new_1_features/PrivateTest'
     shape_predictor_path='shape_predictor_68_face_landmarks.dat'
     trunc_trainset_to = -1  # put the number of train images to use (-1 = all images of the train set)
     trunc_validationset_to = -1
