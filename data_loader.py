@@ -7,7 +7,7 @@ def load_data(validation=False, test=False):
     validation_dict = dict()
     test_dict = dict()
 
-    if DATASET.name == "Fer2013":
+    if DATASET.name == "new_1":
 
         # load train set
         data_dict['X'] = np.load(DATASET.train_folder + '/images.npy')
